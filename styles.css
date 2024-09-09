@@ -1,10 +1,16 @@
-body {
-    background-image: url('https://i.ibb.co/0VgHfRR/Saonoi365.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin: 0;
-}
+@media (max-width: 768px) {
+    button {
+        position: relative;
+        bottom: 20px; /* Adjust this value as needed */
+        font-size: 1em; /* Adjust button size */
+        padding: 8px 16px;
+        width: auto;
+    }
+
+    body {
+        padding: 10px; /* Adjust padding for better view on mobile */
+        background-size: contain; /* Ensure the background scales on smaller screens */
+    }
 button {
   background-color: #1da1f2;
   color: white;
